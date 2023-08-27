@@ -6,6 +6,7 @@ class home extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
+      padding: EdgeInsets.all(15),
       decoration: const BoxDecoration(
         gradient: LinearGradient(
           begin: Alignment.topRight,
@@ -25,7 +26,7 @@ class home extends StatelessWidget {
             Row(
               children: [
                 SizedBox(
-                  height: 150,
+                  height: 160,
                 ),
                 Icon(
                   Icons.menu,
@@ -40,6 +41,7 @@ class home extends StatelessWidget {
             ),
             Text('BLOOMING'),
             Text('CUPCAKES'),
+            Text('& BOUQUETS'),
             
           ],
         ),
