@@ -6,7 +6,7 @@ class home extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      decoration: BoxDecoration(
+      decoration: const BoxDecoration(
         gradient: LinearGradient(
           begin: Alignment.topRight,
           end: Alignment.bottomLeft,
@@ -16,10 +16,12 @@ class home extends StatelessWidget {
           ],
         ),
       ),
-      child: Scaffold(
+      child: const Scaffold(
         backgroundColor: Colors.transparent,
         body: Column(
+          mainAxisAlignment: MainAxisAlignment.start,
           children: [
+            
             Row(
               children: [
                 SizedBox(
@@ -36,9 +38,7 @@ class home extends StatelessWidget {
                 ),
               ],
             ),
-            Text('BLOOMING'),
-            Text('CUPCAKES'),
-            Text('& BOUQUETS'),
+            Align(child: Text('dhhah')),
           ],
         ),
       ),
