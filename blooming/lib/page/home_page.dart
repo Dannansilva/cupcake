@@ -38,7 +38,8 @@ class home extends StatelessWidget {
                 ),
               ],
             ),
-            Align(child: Text('dhhah')),
+            Align(child: Text('dannan')),
+            
           ],
         ),
       ),
