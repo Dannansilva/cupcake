@@ -38,7 +38,8 @@ class home extends StatelessWidget {
                 ),
               ],
             ),
-            Align(child: Text('silva')),
+            Text('BLOOMING'),
+            Text('CUPCAKES'),
             
           ],
         ),
